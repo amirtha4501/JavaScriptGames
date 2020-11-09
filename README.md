@@ -3,17 +3,22 @@
     <img src="assets/gamepad.png" height="300px" width="310;ppx">
 </h2>
 
-- ### 🧠 Memory Game [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/MemoryGame)
-- ### 🐭 Whac A Mole [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/WhacAMole)
 - ### 🚥 Connect [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/Connect)
+- ### 🧠 Memory Game [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/MemoryGame)
+- ### 🐍 Snake Game [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/SnakeGame)
+- ### 🐭 Whac A Mole [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/WhacAMole)
 
 ## 🧾 Description
-
+- ### Connect
+        It's a two-player connection board game, in which the players take turns dropping colored discs into a seven-column, six-row vertically suspended grid. 
+        The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.
 - ### Memory Game
         A game that improve the memory and brain power. The thing is to match between each couple of images.
+- ### Snake Game
+        A  game in which a snake needs to explore an environment and catch the fruit without hitting any obstacle or itself. 
+        Every time the snake catches a fruit, its size increases.
 - ### Whac A Mole
         A game which involves quickly and repeatedly hitting the heads of moles with a pointer as they pop up from the holes.
-- ### Connect
 
 ## 🧱 Tech
 - HTML
@@ -31,20 +36,29 @@
 
 ## 🤔 How to play
 ### - Connect
-- 
+- The board is empty🗌 at the start of the game. 
+- The aim for both players is to make a straight line⬇️ of four own pieces.
+- The line can be vertical⬆️, horizontal➡️ or diagonal↘️. 
+- Before starting, players decide randomly which of them will be the beginner🎲.
+- Moves are made alternatively, one by turn.
+- The game is over if four of the same colour is connected and the player who owns that colour is the winner🏆.
 ### - Memory Game
 - Initially, there will be 12 cards.
 - Turn over🔄 any of the cards.
 - Remember💡 what was on each card and where it was.
 - If you couple the card's image with it's pair, the score will be incremented⏫.
 - The game is over when all the cards have been matched💯.
+### - Snake Game
+- Press the arrow key↘️.
+- Control the 🐍snake using the arrow keys.
+- Use the up arrow⬆️ to move up, down arrow⬇️ to move down, left arrow⬅️ to turn left and the right arrow➡️ to turn right.
+- Chase down the apples🍎.
+- Play until your snake hits ⚕️itself.
 ### - Whac A Mole
 - A mole🐭 will pop up from the boxes.
 - You've 60 seconds of time⏰ to show your nimbleness.
 - You have to quickly and repeatedly click the heads of moles.
 - The game is over, after a minute⏳.
-### - Connect
-The board is empty at the start of the game. The aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal. Before starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.
 
 ## 🧐 What's the outcome
 - ### Connect
@@ -65,6 +79,17 @@ The board is empty at the start of the game. The aim for both players is to make
     - Math.random()
     - sort()
     - For loops
+- ### Snake Game
+    - querySelector()
+    - addEventListener()
+    - setInterval()
+    - keyCodes()
+    - pop()
+    - unshift()
+    - push()
+    - classList.contains()
+    - classList.add()
+    - classList.remove()
 - ### Whac A Mole
     - querySelector()
     - addEventListener()
@@ -86,6 +111,11 @@ The board is empty at the start of the game. The aim for both players is to make
         └───memory-game.css
         └───memory-game.html
         └───memory-game.js
+    └───SnakeGame
+        └───images
+        └───snake.css
+        └───snake.html
+        └───snake.js
     └───WhacAMole
         └───images
         └───whac.css
