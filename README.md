@@ -79,6 +79,15 @@
     - classList.add()
     - For loops
     - Arrow functions
+- ### Frogger
+    - querySelector()
+    - addEventListener()
+    - setInterval()
+    - clearInterval()
+    - forEach()
+    - classList.contains()
+    - classList.add()
+    - classList.remove()
 - ### Memory Game
     - push()
     - querySelector()
@@ -127,6 +136,11 @@
         └───connect.css
         └───connect.html
         └───connect.js
+    └───Frogger
+        └───images
+        └───frogger.css
+        └───frogger.html
+        └───frogger.js
     └───MemoryGame
         └───images
         └───memory-game.css
@@ -138,7 +152,6 @@
         └───snake.html
         └───snake.js
     └───SpaceInvaders
-        └───images
         └───space-invaders.css
         └───space-invaders.html
         └───space-invaders.js
