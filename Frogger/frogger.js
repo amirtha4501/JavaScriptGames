@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentTime = 20;
     let timerId;
 
-    squares[currentIndex].classList.add('frog');
+    // squares[currentIndex].classList.add('frog');
 
     function moveFrog(e) {
         squares[currentIndex].classList.remove('frog');
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if(currentIndex - width >= 0) { currentIndex -= width; }
                 break;
             case 39:
-                if(currentIndex % width < width -1) { currentIndex += 1; }
+                if(currentIndex % width < width - 1) { currentIndex += 1; }
                 break;
             case 40:
                 if(currentIndex + width < width * width) { currentIndex += width; }
@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(timerId);
         } else {
             timerId = setInterval(movePieces, 1000);
-            document.addEventListener('keyup', moveFrog());
+            document.addEventListener('keyup', moveFrog);
         }
     })
 

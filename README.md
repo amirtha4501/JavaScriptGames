@@ -120,6 +120,22 @@
     - setInterval()
     - clearInterval()
     - push()
+- ### Tetris Game
+    - querySelector()
+    - addEventListener()
+    - Array.from()
+    - Math.floor()
+    - forEach()
+    - classList()
+    - setInterval()
+    - clearInterval()
+    - style.backgroundImage
+    - getElementsByClassName()
+    - splice()
+    - some()
+    - concat()
+    - appendChild()
+    - Arrow functions
 - ### Whac A Mole
     - querySelector()
     - addEventListener()
@@ -137,7 +153,6 @@
         └───connect.html
         └───connect.js
     └───Frogger
-        └───images
         └───frogger.css
         └───frogger.html
         └───frogger.js
@@ -147,7 +162,6 @@
         └───memory-game.html
         └───memory-game.js
     └───SnakeGame
-        └───images
         └───snake.css
         └───snake.html
         └───snake.js
@@ -155,6 +169,10 @@
         └───space-invaders.css
         └───space-invaders.html
         └───space-invaders.js
+    └───Tetris
+        └───tetris.css
+        └───tetris.html
+        └───tetris.js
     └───WhacAMole
         └───images
         └───whac.css
