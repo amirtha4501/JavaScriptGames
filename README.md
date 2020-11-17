@@ -7,6 +7,7 @@
 - ### 🧠 Memory Game [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/MemoryGame)
 - ### 🐍 Snake Game [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/SnakeGame)
 - ### ✈️ Space Invaders [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/SpaceInvaders)
+- ### 📦 Tetris [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/Tetris)
 - ### 🐭 Whac A Mole [![Let's go](https://img.shields.io/badge/Code-%F0%9F%8E%AE-brightgreen)](https://github.com/amirtha4501/JavaScriptGames/tree/master/WhacAMole)
 
 ## 🧾 Description
@@ -20,6 +21,8 @@
         Every time the snake catches a fruit, its size increases.
 - ### Space Invaders
         It is a fixed shooter in which the player controls a laser cannon by moving it horizontally across the bottom of the screen and firing at descending aliens.
+- ### Tetris
+        It is a tile-matching game where we've to arrange the falling blocks of different shapes to fill the line.
 - ### Whac A Mole
         A game which involves quickly and repeatedly hitting the heads of moles with a pointer as they pop up from the holes.
 
@@ -64,6 +67,12 @@
 - Press spacebar to shoot🔥.
 - Press left⬅️ and right➡️ arrows to move the shooter accordingly.
 - The game is over🥴 if the aliens reached the land.
+### - Tetris
+- Use up arrow⬆️ to rotate the block📦.
+- Use left⬅️ and right➡️ arrow to move the block to sidewards.
+- Use down arrow⬇️ to move downwards fastly.
+- We can maintain the score💯 by filling all the blank space in a line of the screen.
+- The game is over🤐 if the blocks reach the top of the screen.
 ### - Whac A Mole
 - A mole🐭 will pop up from the boxes.
 - You've 60 seconds of time⏰ to show your nimbleness.
@@ -128,8 +137,7 @@
     - forEach()
     - classList()
     - setInterval()
-    - clearInterval()
-    - style.backgroundImage
+    - clearInterval() <!-- - style.backgroundImage -->
     - getElementsByClassName()
     - splice()
     - some()
